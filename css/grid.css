@@ -1,0 +1,105 @@
+<!--step 1: 先訂定網頁框架，從小設到大-->
+       
+            /*for 全部與手機 all*/
+
+            body{
+                margin:0;
+               
+            }
+            .container{
+                max-width:1240px;
+                margin:auto;
+             
+            }
+            .row{
+                display:table;
+                width:100%;
+           
+/*                background-color:#242424;*/
+            }
+            .col-phone-100{
+                 width:100%;
+                float:left;
+                
+            }
+            .col-phone-67{
+                 width:67%;
+                float:left;
+                
+            }
+            .col-phone-50{
+                 width:50%;
+                float:left;
+                
+            }
+            .col-phone-33{
+                 width:33%;
+                float:left;
+                
+            }
+            .col-phone-25{
+                 width:25%;
+                float:left;
+                
+            }
+        /*768~max*/
+        @media(min-width:768px){
+        /*for 平板Tablet*/
+            .col-tablet-100{
+                 width:100%;
+                float:left;
+                
+            }
+            .col-tablet-67{
+                 width:66.7%;
+                float:left;
+
+            }
+            .col-tablet-50{
+                 width:50%;
+                float:left;
+
+            }
+            .col-tablet-33{
+                 width:33.3%;
+                float:left;
+
+            }
+            .col-tablet-25{
+                 width:25%;
+                float:left;
+
+            }
+        
+        }    
+        
+        @media(min-width:992px){
+        /*for 平板Tablet*/
+            .col-desktop-100{
+             width:100%;
+            float:left;
+
+            }
+            .col-desktop-67{
+                 width:66.7%;
+                float:left;
+
+            }
+            .col-desktop-50{
+                 width:50%;
+                float:left;
+
+            }
+            .col-desktop-33{
+                 width:33.3%;
+                float:left;
+
+            }
+            .col-desktop-25{
+                 width:25%;
+                float:left;
+
+            }
+
+        }
+ 

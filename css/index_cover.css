@@ -1,0 +1,99 @@
+ .index-cover{
+  background: url("https://i.cdn.turner.com/drp/nba/lakers/sites/default/files/tw_13kobe06home.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  height:800px; 
+  display: table;
+  width: 100%;
+}
+
+.index-cover .index-container{
+  display: table-cell;
+  vertical-align: bottom;
+  text-align:right;
+  padding:0 200px 0 0;
+/*  background-position: fixed;*/
+/*  background-attachment: fixed;*/
+   
+
+}
+
+.index-cover .index-container ._title{
+  margin: 10px;
+  margin-bottom: -25px;
+  color: #FBFBEA;
+  text-shadow: 10px 10px 0px rgba(0, 0, 0, 1);
+  font-family: cursive;
+  font-size: 130px;
+  font-style: italic;    
+}
+
+.index-cover .index-container .btn{
+  padding: 8px 20px;
+  background-color: white;
+  border: none;
+  border-radius: 12px;
+/*  font-size: 18px;*/
+  margin: 0 8px;
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1), 0 1.5px 0 0 rgba(0, 0, 0,0.1);
+  font-size:100px;
+  font-family: fantasy;
+}
+
+.index-cover .index-container .btn.btn_light{
+  background-color: transparent;
+  color: gold;
+  font-size: 150px;
+  font-style: italic;    
+
+}
+
+.index-cover .index-container .btn.btn_dark{
+  background-color: transparent;
+  color: purple;
+  font-style: italic;    
+
+}
+@media(max-width:769px){
+    .index-cover .index-container{
+      display: table-cell;
+      vertical-align: bottom;
+      text-align:center;   
+      padding:0;
+    }
+
+
+}
+@media(max-width:1300px){
+    .index-cover .index-container ._title{
+      font-size:0;    
+    }
+    .index-cover .index-container .btn.btn_light{
+      
+      font-size: 0;
+
+
+    }
+
+    .index-cover .index-container .btn.btn_dark{
+      
+      font-size: 0;
+
+    }
+    
+    
+}
+@media(min-width:768px){
+ .index-cover{
+  background: url("https://i.cdn.turner.com/drp/nba/lakers/sites/default/files/tw_13kobe06home.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+/*  background-attachment: fixed;*/
+  display: table;
+  width: 100%;
+ }
+
+}
